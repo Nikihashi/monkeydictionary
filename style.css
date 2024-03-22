@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FFD0EC;
+   
+}
+.start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    background-color: #81689D;
+    width: 60vh;
+    height: 60vh;
+    border-radius: 15px;
+    position: absolute;
+}
+#text  {
+    position: absolute;
+    top:10vh;
+    left: 9vh;
+    width:  33vh;
+    height: 3vh;
+    border-radius: 8px;
+}
+.button{
+    position:absolute;
+    top:10vh;
+    left: 44vh;
+    height: 3vh;
+    width: 7vh;
+    border: none;
+    border: 1px solid #67729D;
+    border-radius: 10px;
+    background-color: #C683D7;
+    color: white;
+    cursor: pointer;
+}
+.word{
+    position: absolute;
+    top: 19vh;
+    left: 9vh;
+    color: white;
+    font-size: 4vh;
+    font-family: "Grenze",serif;
+    font-weight: 600;
+}
+.meaning{
+    position: absolute;
+    color: white ;
+    font-size:3vh;
+    opacity: 0.8;
+    font-weight: 400;
+    top: 33vh;
+    left: 9vh;
+    margin-right: 5vh;
+   
+    
+}
+.nick{
+position:absolute;
+top:2vh;
+color: #ED9ED6;
+font-family: "Rubik Moonrocks";
+
+}
+.footer{
+position: absolute;
+bottom: 2vh;
+color: whitesmoke;
+opacity: 0.5;
+
+}
+.heart{
+    cursor:pointer;
+
+}
+
+@media (max-width:600px) {
+    .start{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: larger;
+        background-color: #81689D;
+        width: 38vh;
+        height: 90vh;
+        border-radius: 15px;
+        position: absolute;
+        
+    }
+    #text  {
+        position: absolute;
+        top:20vh;
+        left: 5vh;
+        width:  23vh;
+        height: 4vh;
+        border-radius: 8px;
+}
+.button{
+    position:absolute;
+    top:20vh;
+    left: 29vh;
+    height: 4vh;
+    width: 7vh;
+    border: none;
+    border: 1px solid #67729D;
+    border-radius: 10px;
+    background-color: #C683D7;
+    color: white;
+    cursor: pointer;
+
+}
+.word{
+    position: absolute;
+    top: 29vh;
+    left: 6vh;
+    color: white;
+    font-size: 4vh;
+    font-family: "Grenze",serif;
+    font-weight: 600;
+}
+
+.meaning{
+    position: absolute;
+    color: white ;
+    font-size:3vh;
+    opacity: 0.8;
+    font-weight: 400;
+    top: 48vh;
+    left: 6vh;
+    margin-right: 5vh;
+   
+    
+}
+.nick{
+    margin-left: 4vh;
+}
+}
